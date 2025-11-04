@@ -522,7 +522,6 @@ export default function Home() {
               Call Now: +92 300 123 4567
             </Button>
           </div>
-          <p className="text-green-200 mt-6">
           <p className="text-blue-200 mt-6">
             Free setup • No long-term contracts • Local support
           </p>
@@ -557,13 +556,9 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-gray-300">
-                <li><button onClick={() => scrollToSection('features')} className="hover:text-green-400 transition-colors">Features</button></li>
-                <li><button onClick={() => scrollToSection('industries')} className="hover:text-green-400 transition-colors">Industries</button></li>
-                <li><button onClick={() => scrollToSection('benefits')} className="hover:text-green-400 transition-colors">Benefits</button></li>
                 <li><button onClick={() => scrollToSection('features')} className="hover:text-orange-400 transition-colors">Features</button></li>
                 <li><button onClick={() => scrollToSection('industries')} className="hover:text-orange-400 transition-colors">Industries</button></li>
                 <li><button onClick={() => scrollToSection('benefits')} className="hover:text-orange-400 transition-colors">Benefits</button></li>
-                <li><a href="#" className="hover:text-green-400 transition-colors">Pricing</a></li>
                 <li><a href="#" className="hover:text-orange-400 transition-colors">Pricing</a></li>
               </ul>
             </div>
